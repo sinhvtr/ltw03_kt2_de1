@@ -23,7 +23,7 @@ mysqli_query($conn,'set names utf8');
     <body>
     <div class="p-5 bg-primary text-white text-center" id="thong_tin_ca_nhan">
         <h1>Lập trình web 03 - Kiểm tra 2</h1>
-        Sử dụng các thẻ HTML hợp lý để hiển thị: Họ và tên, Mã sinh viên, Số thứ tự trong DS lớp tại vùng này 
+        Sử dụng các thẻ HTML hợp lý để hiển thị: Họ và tên, Mã sinh viên, Số thứ tự trong DS lớp, Mã đề kiểm tra tại vùng này 
     </div>
     <div class="container mt-5">
         <div class="row">
@@ -32,7 +32,10 @@ mysqli_query($conn,'set names utf8');
                 <ul class="nav nav-pills flex-column">                
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tin học</a>
-                    </li>                
+                    </li>     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tin học</a>
+                    </li>            
                 </ul>
                 <hr class="d-sm-none">
             </div>
