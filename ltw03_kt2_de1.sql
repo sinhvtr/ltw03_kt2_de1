@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 12, 2022 at 06:35 PM
+-- Generation Time: Dec 13, 2022 at 03:37 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -50,7 +50,7 @@ CREATE TABLE `tbl_sach` (
   `sach_id` int(11) NOT NULL,
   `ten_sach` varchar(200) NOT NULL,
   `the_loai_id` int(11) NOT NULL,
-  `noi_dung` text NOT NULL,
+  `hinh_anh` varchar(200) NOT NULL,
   `gia_ban` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 
@@ -58,9 +58,9 @@ CREATE TABLE `tbl_sach` (
 -- Dumping data for table `tbl_sach`
 --
 
-INSERT INTO `tbl_sach` (`sach_id`, `ten_sach`, `the_loai_id`, `noi_dung`, `gia_ban`) VALUES
-(1, 'Lập trình C', 1, 'Nội dung 1', 21000),
-(2, 'Luyện thi IELTS', 2, '200 đề luyện IELTS', 400000);
+INSERT INTO `tbl_sach` (`sach_id`, `ten_sach`, `the_loai_id`, `hinh_anh`, `gia_ban`) VALUES
+(1, 'Lập trình C', 1, 'laptrinhc.jpg', 21000),
+(2, 'Luyện thi IELTS', 2, 'luyenielts.jpg', 400000);
 
 --
 -- Indexes for dumped tables
